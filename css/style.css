@@ -19,9 +19,7 @@ header section.logo {
   background-color: var(--black);
 }
 
-header section.header-navbar {
-  background-color: white;
-}
+
 
 header section.logo div img.header-logo {
   width: 10%;
@@ -39,6 +37,3 @@ header section.header-navbar div.justify-content-end ul button {
   border-radius: 50px;
   margin-left: 0.5rem;
 }
-
-
-
