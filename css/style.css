@@ -11,6 +11,10 @@ body {
 }
 
 /* header */
+header {
+  width: 100%;
+  position: fixed;
+}
 header section.logo {
   background-color: var(--black);
 }
@@ -22,3 +26,19 @@ header section.header-navbar {
 header section.logo div img.header-logo {
   width: 10%;
 }
+
+header section.header-navbar ul {
+  font-size: small;
+}
+
+header section.header-navbar div.justify-content-end ul img {
+  width: 30%;
+}
+
+header section.header-navbar div.justify-content-end ul button {
+  border-radius: 50px;
+  margin-left: 0.5rem;
+}
+
+
+
