@@ -29,9 +29,14 @@ header section.header-navbar ul {
   font-size: small;
 }
 
-header section.header-navbar div.justify-content-end ul img {
-  width: 30%;
+.navbar-light .navbar-nav .nav-link {
+  color: black;
 }
+
+header section.header-navbar img.lens-icon {
+  width: 30px;
+}
+
 
 header section.header-navbar div.justify-content-end ul button {
   border-radius: 50px;
