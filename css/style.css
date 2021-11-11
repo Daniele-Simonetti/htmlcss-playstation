@@ -14,12 +14,12 @@ body {
 header {
   width: 100%;
   position: fixed;
+  background-color: white;
+  z-index: 2;
 }
 header section.logo {
   background-color: var(--black);
 }
-
-
 
 header section.logo div img.header-logo {
   width: 10%;
@@ -41,4 +41,16 @@ header section.header-navbar img.lens-icon {
 header section.header-navbar div.justify-content-end ul button {
   border-radius: 50px;
   margin-left: 0.5rem;
+}
+/* main */
+main {
+  padding-top: 116px;
+}
+/* game banner */
+section.game-banner {
+  height: 70vh;
+  background-image: url(../img/jumbo-bg.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
