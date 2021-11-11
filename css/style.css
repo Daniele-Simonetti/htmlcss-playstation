@@ -1,3 +1,11 @@
+:root {
+  --black: rgb(0, 0, 0);
+  --gray: rgb(65, 53, 54);
+  --light-brown: rgb(190, 188, 187);
+  --violet: rgb(22, 28, 59);
+  --light-blue: rgb(0, 67, 156);
+}
+
 body {
   font-family: Helvetica, arial, sans-serif;
 }
