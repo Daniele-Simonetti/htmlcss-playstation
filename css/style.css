@@ -9,3 +9,16 @@
 body {
   font-family: Helvetica, arial, sans-serif;
 }
+
+/* header */
+header section.logo {
+  background-color: var(--black);
+}
+
+header section.header-navbar {
+  background-color: white;
+}
+
+header section.logo div img.header-logo {
+  width: 10%;
+}
