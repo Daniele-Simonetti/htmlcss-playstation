@@ -10,6 +10,11 @@ body {
   font-family: Helvetica, arial, sans-serif;
 }
 
+/* add bootstrap-rules */
+.rounded-4 {
+  border-radius: 1.5rem;
+}
+
 /* header */
 header {
   width: 100%;
