@@ -96,6 +96,10 @@ section.game-banner button.btn-danger {
 section.explore-ps5 p.attract-buyers {
   color: gray;
 }
+
+section.explore-ps5 h6.smaller-text {
+  font-size: 0.8em;
+}
 @media screen and (min-width: 768px) {
   section.explore-ps5 div.gadget-ps5 {
     justify-content: space-around;
