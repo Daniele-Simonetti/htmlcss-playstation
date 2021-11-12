@@ -1,6 +1,6 @@
 :root {
   --black: rgb(0, 0, 0);
-  --gray: rgb(65, 53, 54);
+  --gray: rgb(31, 31, 31);
   --light-brown: rgb(190, 188, 187);
   --violet: rgb(22, 28, 59);
   --light-blue: rgb(0, 67, 156);
@@ -130,5 +130,38 @@ section.game-banner.it-takes-two img.it-takes-two {
   }
   section.game-banner.it-takes-two img.it-takes-two {
     width: 25%;
+  }
+}
+
+/* 12 cards */
+main section.cards-12 {
+  background-color: var(--gray);
+  color: white;
+}
+
+main section.cards-12 span.trademark::after {
+  content: "\f25c";
+  display: inline-block;
+  font-size: 0.7em;
+}
+
+main section.cards-12 h3 {
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+}
+
+@media screen and (min-width: 576px) {
+  main section.cards-12 h3 {
+    font-size: 1rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  main section.cards-12 h3 {
+    font-size: 1.05rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  main section.cards-12 h3 {
+    font-size: 0.8rem;
   }
 }
