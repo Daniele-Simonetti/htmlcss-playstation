@@ -61,7 +61,7 @@ section.game-banner {
   color: white;
 }
 
-section.game-banner img.game-logo {
+section.game-banner img.game-logo.returnal {
   width: 23%;
   padding-top: 14em;
 }
@@ -100,4 +100,15 @@ section.explore-ps5 p.attract-buyers {
   section.explore-ps5 div.gadget-ps5 {
     justify-content: space-around;
   }
+}
+
+/* game banner it takes two */
+section.game-banner.it-takes-two {
+  height: 70vh;
+  background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+}
+
+section.game-banner.it-takes-two img.it-takes-two {
+  width: 44%;
+  margin-left: 4.3em;
 }
