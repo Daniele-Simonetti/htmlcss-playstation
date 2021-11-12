@@ -37,10 +37,15 @@ header section.header-navbar img.lens-icon {
   width: 30px;
 }
 
-
-header section.header-navbar div.justify-content-end ul button {
-  border-radius: 50px;
+header section.header-navbar span.arrow-down img {
+  width: 10px;
   margin-left: 0.5rem;
+}
+
+
+header section.header-navbar div  button.acces-btn {
+  margin-left: 0.5rem;
+  background-color: black;
 }
 /* main */
 main {
