@@ -90,3 +90,14 @@ section.game-banner button.btn-danger {
     width: 90%;
   }
 }
+
+
+/* explore ps5 */
+section.explore-ps5 p.attract-buyers {
+  color: gray;
+}
+@media screen and (min-width: 768px) {
+  section.explore-ps5 div.gadget-ps5 {
+    justify-content: space-around;
+  }
+}
