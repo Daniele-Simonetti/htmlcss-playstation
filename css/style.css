@@ -14,6 +14,9 @@ body {
 .rounded-4 {
   border-radius: 1.5rem;
 }
+.fs-1_15 {
+  font-size: 1.15rem;
+}
 .fs-1_3 {
   font-size: 1.3rem;
 }
@@ -179,4 +182,40 @@ main section.cards-12 h3 {
 /* explore ps4 */
 section.explore-ps4 p {
   color: gray;
+}
+
+/* promo banner ps plus */
+main section.promo-banner.psn-plus {
+  background-color: var(--light-brown);
+  margin-top: 6rem;
+}
+main section.promo-banner.psn-plus img.logo-psn-plus {
+  width: 60%;
+  padding-top: 3rem;
+}
+main section.promo-banner.psn-plus button.light-gray-bg {
+  background-color: lightgray;
+}
+
+@media screen and (min-width: 576px) {
+  section.promo-banner.psn-plus p.fs-1_15 {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  main section.promo-banner.psn-plus img.logo-psn-plus {
+    padding-top: 1.9rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  main section.promo-banner.psn-plus button.light-gray-bg {  
+    margin-bottom: 3rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  main section.promo-banner.psn-plus div.resizing-padding-lg {
+    padding: 3rem 0;
+  }
 }
