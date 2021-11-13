@@ -275,3 +275,22 @@ main section.promo-banner.psn-plus button.light-gray-bg {
     padding: 3rem 0;
   }
 }
+
+/* sales section */
+section.sales div.title-sale h2 {
+  font-size: 3rem;
+}
+
+section.sales div.title-sale p {
+  color: gray;
+  font-size: 1.59rem;
+}
+
+@media screen and (min-width: 576px) {
+  section.sales div.title-sale h2 {
+    font-size: 2.6rem;
+  }
+  section.sales div.title-sale p {
+    font-size: 1.29rem;
+  }
+}
