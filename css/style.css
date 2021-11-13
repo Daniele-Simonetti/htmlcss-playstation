@@ -294,3 +294,44 @@ section.sales div.title-sale p {
     font-size: 1.29rem;
   }
 }
+
+/* promo banner ps-now */
+main section.promo-banner.psn-now {
+  background-color: var(--violet);
+  margin-top: 6rem;
+  color: white;
+}
+main section.promo-banner.psn-now img.logo-psn-now {
+  width: 60%;
+  padding-top: 3rem;
+}
+main section.promo-banner.psn-now button.light-gray-bg {
+  background-color: lightgray;
+  color: black;
+}
+
+@media screen and (min-width: 576px) {
+  section.promo-banner.psn-now p.fs-1_15 {
+    font-size: 0.99rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  main section.promo-banner.psn-now img.logo-psn-plus {
+    padding-top: 1.9rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  main section.promo-banner.psn-now button.light-gray-bg {  
+    margin-bottom: 3rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  main section.promo-banner.psn-now div.resizing-padding-lg {
+    padding: 3rem 0;
+  }
+  section.promo-banner.psn-now p.fs-1_15 {
+    font-size: 0.87rem;
+  }
+}
