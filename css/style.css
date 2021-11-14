@@ -143,8 +143,11 @@ section.game-banner button.btn-danger {
   }
 }
 
+/* 6 cards */
 
-
+section.card-6 img:hover {
+  transform: translateY(-10px);
+}
 /* explore ps5 */
 section.explore-ps5 p.attract-buyers {
   color: gray;
