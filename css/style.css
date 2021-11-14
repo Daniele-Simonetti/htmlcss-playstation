@@ -29,6 +29,9 @@ body {
 .pt-6 {
   padding-top: 6rem;
 }
+.opacity-60 {
+  opacity: 60%;
+}
 /* header */
 header {
   width: 100%;
@@ -109,7 +112,6 @@ section.game-banner p.game-desc {
 
 section.game-banner button.btn-danger {
   background-color: rgb(205, 61, 15);
-  border: 0;
 }
 
 /* sm */
@@ -157,6 +159,16 @@ section.explore-ps5 p.attract-buyers {
 section.explore-ps5 h6.smaller-text {
   font-size: 0.8em;
 }
+
+section.explore-ps5 img:hover {
+  opacity: 100%;
+}
+
+section.explore-ps5 div.img-container:focus,
+section.explore-ps5 div.img-container:active {
+  border-bottom: 3px solid var(--light-blue);
+}
+
 @media screen and (min-width: 576px) {
   section.explore-ps5 p.attract-buyers {
     font-size: 1.38rem;
