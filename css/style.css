@@ -23,6 +23,12 @@ body {
 .fs-2_3 {
   font-size: 2.3rem;
 }
+.mb-5r {
+  margin-bottom: 5rem;
+}
+.pt-6 {
+  padding-top: 6rem;
+}
 /* header */
 header {
   width: 100%;
@@ -337,10 +343,36 @@ footer {
   background-color: var(--light-blue);
   color: white;
 }
+footer section.footer-navbar img {
+  width: 20%;
+}
 footer section.footer-navbar ul.footer-link-list {
   list-style: none;
+}
+footer section.footer-navbar ul.footer-link-list li {
+  margin-bottom: 0.5rem;
 }
 footer section.footer-navbar ul.footer-link-list a {
   text-decoration: none;
   color: white;
+}
+
+footer section.copyright img.footer-last-logo {
+  opacity: 0.9;
+}
+
+footer section.copyright p span.last-link a {
+  color: white;
+}
+
+@media screen and (min-width: 576px) {
+  footer section.copyright p {
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  footer section.footer-navbar ul.footer-link-list li a {
+    font-size: 0.87rem;
+  }
 }
