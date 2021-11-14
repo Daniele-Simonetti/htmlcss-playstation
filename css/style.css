@@ -23,9 +23,6 @@ body {
 .fs-2_3 {
   font-size: 2.3rem;
 }
-.w-101 {
-  width: 100%;
-}
 /* header */
 header {
   width: 100%;
@@ -52,8 +49,6 @@ header section.header-navbar ul {
 header section.header-navbar img.lens-icon {
   width: 30px;
 }
-
-
 
 header section.header-navbar div  button.acces-btn {
   margin-left: 0.5rem;
@@ -337,4 +332,15 @@ main section.promo-banner.psn-now button.light-gray-bg {
   }
 }
 
-/* social media */
+/* footer */
+footer {
+  background-color: var(--light-blue);
+  color: white;
+}
+footer section.footer-navbar ul.footer-link-list {
+  list-style: none;
+}
+footer section.footer-navbar ul.footer-link-list a {
+  text-decoration: none;
+  color: white;
+}
