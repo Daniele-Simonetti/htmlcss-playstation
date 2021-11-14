@@ -23,7 +23,9 @@ body {
 .fs-2_3 {
   font-size: 2.3rem;
 }
-
+.w-101 {
+  width: 100%;
+}
 /* header */
 header {
   width: 100%;
@@ -298,7 +300,6 @@ section.sales div.title-sale p {
 /* promo banner ps-now */
 main section.promo-banner.psn-now {
   background-color: var(--violet);
-  margin-top: 6rem;
   color: white;
 }
 main section.promo-banner.psn-now img.logo-psn-now {
@@ -335,3 +336,5 @@ main section.promo-banner.psn-now button.light-gray-bg {
     font-size: 0.87rem;
   }
 }
+
+/* social media */
